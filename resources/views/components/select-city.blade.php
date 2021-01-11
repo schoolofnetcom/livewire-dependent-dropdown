@@ -10,7 +10,7 @@
     <select {{ $attributes }} id="{{ $label ? strtolower($label) : '' }}">
         <option value="">Selecione...</option>
         @foreach($cities as $city)
-            <option value="{{ $city->nome }}">{{ $city->nome }}</option>
+            <option value="{{ $city['nome'] }}">{{ $city['nome'] }}</option>
         @endforeach
     </select>
 </div>
