@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
-    @livewire('hello')
+    @livewire('select')
 @endsection

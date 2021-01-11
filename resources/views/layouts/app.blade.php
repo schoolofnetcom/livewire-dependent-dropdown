@@ -1,12 +1,12 @@
 <html>
     <head>
-        <link rel="stylesheet" href="{{ asset('app.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
         @livewireStyles
     </head>
     <body>
         @yield('content')
 
-        <script src="{{ asset('app.js') }}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
         @livewireScripts
     </body>
 </html>
